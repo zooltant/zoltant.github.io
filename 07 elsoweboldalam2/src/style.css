@@ -1,0 +1,98 @@
+main {
+  display: flex;
+  /* flex-wrap: wrap;*/
+  justify-content: flex-start;
+  width: 900px;
+  font-family: 'Orelega One', cursive;
+  margin: 30px 0px 0px 0px;
+  line-height: 150%;
+}
+
+h1 {
+  font-family: 'Zen Dots', cursive;
+  color: black;
+  margin: 0px  0px  0px 30px ;
+  line-height: 110%;
+  font-size: 40px;
+ }
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  color: black;
+  padding: 160px  0px  20px 0px; 
+  margin: 0px  0px  0px 30px;
+}  
+
+.container {
+  margin: 0px 0px 0px 0px;
+  width: 600px;
+  padding: 0px 0px 0px 0px; 
+}
+
+.szoveg {
+  margin: 0px 0px 0px 10px;
+}
+
+.lista {
+  margin: 0px 0px 0px 50px;
+  line-height: 130%;
+  list-style-type: square;
+  font-size: 18px;
+}
+
+.lista2 {
+  margin: 0px 0px 0px 50px;
+  list-style-type: square;
+  line-height: 130%;
+}
+
+.Dolt {
+  margin: -30px 0px 20px 60px;
+}
+
+
+.Cim1 {
+  font-size: 35px;
+  margin: 250px 0px 20px 60px;
+}
+
+.Cim2 {
+  font-size: 25px;
+  line-height: 130%;
+  margin: 30px 0px 30px 60px;
+}
+
+.fekete {
+  background: red;
+  width: 250px;
+  height: 500px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  line-height: 130%;
+  color: white;
+  padding: 40px;
+  margin: 200px 0px 0px -340px;
+  position: absolute;
+  
+}
+
+.fekete::before {
+  content: '”';
+  font-size: 150px;
+  margin: 0px 0px 0px -40px;
+} 
+
+
+header {
+  background-image: url('https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png');
+  background-repeat: no-repeat;
+  background-size: 500px 300px;
+  background-position: 100% 0%;
+}
+
+.keret {
+  background: black;
+  width: 500px;
+  height: 4px;
+  margin: 40px 0px 20px 60px;
+}
